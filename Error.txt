@@ -1,0 +1,14 @@
+server is working in http://localhost:${process.env.PORT}
+MongoParseError: option usecreateindex is not supported
+    at parseOptions (D:\rome\E-Commerce\node_modules\mongodb\lib\connection_string.js:264:15)
+    at new MongoClient (D:\rome\E-Commerce\node_modules\mongodb\lib\mongo_client.js:46:63)
+    at _createMongoClient (D:\rome\E-Commerce\node_modules\mongoose\lib\connection.js:888:14)
+    at NativeConnection.openUri (D:\rome\E-Commerce\node_modules\mongoose\lib\connection.js:742:29)
+    at Mongoose.connect (D:\rome\E-Commerce\node_modules\mongoose\lib\index.js:406:15)
+    at connectDatabase (D:\rome\E-Commerce\backend\config\database.js:5:10)
+    at Object.<anonymous> (D:\rome\E-Commerce\backend\server.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32) {
+  [Symbol(errorLabels)]: Set(0) {}
+}
